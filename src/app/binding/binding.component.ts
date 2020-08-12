@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
     styleUrls: ['.binding.component.css']
 })
 export class Binding{
-    
+
+    username = "User";
+
 }
