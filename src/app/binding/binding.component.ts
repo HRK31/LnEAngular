@@ -8,5 +8,6 @@ import { Component } from "@angular/core";
 export class Binding{
 
     username = "User";
-
+    userStatus = false;
+    
 }
