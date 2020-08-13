@@ -4,7 +4,9 @@
             <div class="form-group">
                 <input [(ngModel)]="username" class="form-control">
                 <p>The username is {{username}}</p>
-                <button type="button" class="btn btn-primary" [disabled]='!userStatus'>Click</button>
+                <button type="button" class="btn btn-primary" 
+                [disabled]="username === ''"
+                (click)="username = ''">Reset User</button>
             </div>
         </div>
     </div>
